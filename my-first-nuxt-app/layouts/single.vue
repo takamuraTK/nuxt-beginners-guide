@@ -1,9 +1,10 @@
 <template>
   <div>
-    <span>default layout</span>
+    <span>single layout</span>
     <AppNavigation />
     <hr />
     <nuxt />
+    <nuxt-link to="/">トップへ戻る</nuxt-link>
     <hr />
     <footer>footer</footer>
   </div>
@@ -11,11 +12,9 @@
 
 <script>
 import AppNavigation from "~/components/AppNavigation.vue";
-
 export default {
   components: {
     AppNavigation,
   },
 };
 </script>
-

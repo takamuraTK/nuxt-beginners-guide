@@ -21,5 +21,6 @@ export default {
     );
     return { user, items };
   },
+  layout: "single",
 };
 </script>
