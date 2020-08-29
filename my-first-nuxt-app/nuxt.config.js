@@ -57,7 +57,7 @@ export default {
 
   },
   plugins: [
-    '~/plugins/axios.js'
+    '~/plugins/axios.js', '~/plugins/logger.js'
   ],
   env: {
     QIITA_TOKEN: process.env.QIITA_TOKEN
