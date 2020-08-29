@@ -5,6 +5,7 @@ export default {
   ** See https://nuxtjs.org/api/configuration-mode
   */
   mode: 'universal',
+  srcDir: 'app',
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
