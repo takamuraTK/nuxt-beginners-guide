@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.1",
-    "nuxt": "^2.14.0"
+    "nuxt": "^2.14.0",
+    "universal-cookie": "^4.0.3"
   },
   "devDependencies": {}
 }
