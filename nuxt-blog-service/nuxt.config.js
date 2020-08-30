@@ -60,5 +60,13 @@ export default {
   */
   build: {
     transpile: [/^element-ui/],
+  },
+
+  axios: {
+    baseURL: 'https://vuejs-http-86fd2.firebaseio.com'
+  },
+
+  router: {
+    middleware: ['auth-cookie']
   }
 }

@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "element-ui": "^2.13.2",
-    "nuxt": "^2.14.0"
+    "nuxt": "^2.14.0",
+    "universal-cookie": "^4.0.3"
   },
   "devDependencies": {}
 }
